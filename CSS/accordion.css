@@ -1,0 +1,39 @@
+
+.accordion {
+	background-color: #ececed;
+	color: #575656;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+/* hintergrundfarbe wenn ausgewählt */
+.active, .accordion:hover {
+	background-color: #ccc;
+}
+
+/* Note: hidden by default */
+.panel {
+	padding: 0 18px;
+	background-color: #ffffff;
+	display: none;
+	overflow: hidden;
+}
+
+/* unicode symbol wenn eingeklappt */
+.accordion:after {
+	content: '\02795';
+	font-size: 13px;
+	color: #3b3b3a;
+	float: right;
+	margin-left: 5px;
+}
+
+/* unicode symbol wenn ausgeklappt */
+.active:after {
+	content: "\2796";
+}

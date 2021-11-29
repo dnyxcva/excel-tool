@@ -1,0 +1,131 @@
+/* Hintergrund */
+body {
+	background-image: linear-gradient(45deg, #153268 5%, #bccde2 85%);
+	/* background-image: linear-gradient(45deg, #006597 5%, rgb(132, 191, 234) 85%); */
+	background-color: #c5cde0;   /* macht nichts solange background-image existiert */
+	color: black;
+}
+
+#wrapper {
+	width: 100%;
+	/* max-width: calc(100% - 4em); */
+	padding: 2.5%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-radius: 1px;
+}
+
+#footer {
+	padding: 2.5%;
+}
+
+hr {
+	border-bottom: solid 2.5px;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	/* border-color: linear-gradient(45deg, #153268 5%, #bccde2 85%); geht nicht */
+}
+
+div.loginbild {
+	opacity: 0.5;
+	position: relative;
+	left: 50%;
+}
+
+div.loginbild {
+	background-image: url("/images/excel.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 1;
+	position: relative;
+	left: 25%;
+	/* <img src="/images/excel.svg" alt="Microsoft Excel Logo" style="width:40%; height:90%;"> */
+}
+
+div.loginseite {
+	background-color: #ffffff;
+	height: 100%;
+}
+
+/* Login Seite */
+.row {
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+form {
+	padding: 0;
+	margin-left: 15%
+}
+
+.form-control {
+	width: 80%;
+	border-radius: 5px
+}
+
+/* Hintergrund links */
+.abc {
+	background-color: #575656;
+	padding: 2%;
+	margin: auto
+}
+
+/* Bild/Hintergrund rechts */
+.xyz {
+	background-size: auto;
+	background-repeat: no-repeat;
+	padding: 2%
+}
+
+/* E-Mail-Adresse und Passwort Überschrift Schriftfarbe */
+.in {
+	color: #ffffff;
+	margin-right: 100%
+}
+
+/* Eingeloggt bleiben Schriftfarbe */
+.custom-control {
+	color: #ffffff;
+	margin-bottom: 2%
+}
+
+/* ---------- Buttons */
+.btn {
+	border-radius: 5px;
+	width: 80%;
+	margin-top: 2%
+}
+
+/* Login Schriftfarbe */
+.bla {
+	background-color: #1d6f42;
+	border: none;
+}
+
+/* Passwort vergessen */
+.my {
+	color: #575656;
+	background-color: #ffffff;
+	border: none
+}
+
+/* ---------- Nix? */
+
+.in2 {
+	color: #495057;
+	margin-right: auto
+}
+
+.page {
+	margin-top: 0%
+}
+
+@media only screen and (max-width: 600px) {
+	row {
+		margin-top: 5%;
+		margin-left: 1%;
+		margin-right: 1%
+	}
+}
